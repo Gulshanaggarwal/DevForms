@@ -1,0 +1,25 @@
+
+html
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width,initial-scale=1")
+    title Captcha Verify 
+    style 
+      include ../Static/CaptchaVerify.css
+    script 
+      include ../Static/CaptchaVerify.js
+
+    script(src="https://www.google.com/recaptcha/api.js" aysnc defer)
+
+  body
+    .container
+    form
+      h2 Almost there
+      p Please help us fight spam by clicking the box below
+      .g-recaptcha(data-sitekey="6LchoSEdAAAAALqvavrgkqB8tGGOuw71V0XKgfSE" data-callback="recaptcha_callback")
+      button(type="submit" disabled) Submit
+
+    
+
+

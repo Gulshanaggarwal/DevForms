@@ -1,0 +1,16 @@
+html
+ head
+  title Form Submission
+  style
+   include ./css/FormData.css
+body
+ div(class="container")
+  h1(class="heading") DEVFORMS
+  p(class="paragraph") someone Just submitted a form, let's take a look :
+  ul(class="list-container")
+   each val,key in FormData
+    li(class="list-item")
+     span(class="key")=key+' : '
+     span=val
+
+ 

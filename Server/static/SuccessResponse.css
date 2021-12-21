@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    width: 50%;
+    background-color:#e6e8e6 ;
+    padding: 1rem 2rem;
+}
+
+.para{
+    color:green;
+    font-weight: 700;
+}
+.go-back{
+    font-weight: bold;
+    padding: 1rem 0;
+    color: #3b82f6;
+    font-size: 1.2rem;
+}

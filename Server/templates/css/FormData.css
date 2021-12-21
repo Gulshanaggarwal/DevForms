@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+
+}
+.heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding:5px 0;
+    text-align: center;
+}
+.paragraph{
+    font-size: 1rem;
+    padding: 8px 0;
+}
+.list-container{
+    margin:5px 0;
+}
+.list-item{
+    background-color: #dedfe0;
+    padding:1rem 0.5rem;
+    border-bottom: 1px solid peru;
+    color: black;
+    font-size: 1rem;
+    width: 80%;
+}
+.key{
+    font-size: 0.8rem;
+    font-weight: 600;
+}

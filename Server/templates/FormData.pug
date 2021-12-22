@@ -8,7 +8,7 @@ body
   h1(class="heading") DEVFORMS
   p(class="paragraph") someone Just submitted a form, let's take a look :
   ul(class="list-container")
-   each val,key in FormData
+   each val,key in data
     li(class="list-item")
      span(class="key")=key+' : '
      span=val

@@ -6,11 +6,11 @@ html
 body
  div(class="container")
   h1(class="heading") DEVFORMS
-  p(class="paragraph") someone Just submitted a form, let's take a look :
-  ul(class="list-container")
+  p(class="paragraph") Someone Just submitted form on your website, take a look :-
+  ul(class="list")
    each val,key in data
     li(class="list-item")
      span(class="key")=key+' : '
-     span=val
-
+     span(class="val")=val
+   
  

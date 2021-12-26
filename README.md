@@ -11,7 +11,7 @@
  
   3. Rest of the things we will handle automatically!
  
-  4. When anyone submit that form they are redirected to Google recaptcha page, once captcha is filled form data is sent to targeted email address.
+  4. When anyone submits that form they are redirected on submission page.
  
 ## My Inspiration
   When I was building my portfolio, I was looking for something that can automatically send my form data to my email address. I tried so much through youtube, copy-pasted so much code to submit my form data but it did not really work for me because at that time I was just a beginner, trying all these things without any knowledge of server-side programming.

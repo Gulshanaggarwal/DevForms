@@ -16,7 +16,7 @@ function Homepage() {
           <p>Get your keys and integrate into your front end code</p>
         </div>
 
-        <div className="bg-gray-900 text-gray-50 w-1/2 mx-auto py-8 px-8">
+        <div className="bg-gray-900 text-gray-50 w-1/2 mx-auto py-8 px-8 rounded-md">
           <div className="w-5/6 mx-auto flex flex-col">
             <span>&lt;form action="https://devforms.netlify.app/" method="post"&gt;</span>
             <span className="px-4">&lt;label for="email"&gt;Your Email&lt;/label&gt;</span>

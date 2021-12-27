@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { Appear} from "../../features/OTPWindowSlice";
+import { Appear } from "../../features/OTPWindowSlice";
 import { Active, Disable } from "../../features/LoaderSlice";
 import OTPWindow from "./otpwindow";
 import Loader from "../Loader/loading";
 import { Link } from "react-router-dom";
+import AppLogo from "../AppLogo/appLogo";
 
 function Register() {
   const [name, setName] = useState(""); // setName
@@ -57,8 +58,11 @@ function Register() {
 
   return (
     <React.Fragment>
-      <div className="bg-gray-100 h-screen flex justify-center items-center">
-        <div className="w-1/3">
+      <header className="px-8 py-4 bg-gray-100 shadow-xl">
+        <AppLogo/>
+      </header>
+      <div className="h-screen flex justify-center items-center">
+        <div className="w-3/4 sm:w-1/3">
           <h1 className="text-xl py-4 font-bold">Welcome to Sign up Page</h1>
           <form className="flex flex-col">
             <input
@@ -97,8 +101,8 @@ function Register() {
           <p className="py-4"><span className="text-gray-600">Already have an account?</span><Link to="/login" className="px-2 text-blue-600">Sign in!</Link></p>
         </div>
       </div>
-      {isOTPWindow && <OTPWindow name={name} email={email} password={password}  />}
-      {IsLoader && (<Loader/>)}
+      {isOTPWindow && <OTPWindow name={name} email={email} password={password} />}
+      {IsLoader && (<Loader />)}
     </React.Fragment>
   );
 }

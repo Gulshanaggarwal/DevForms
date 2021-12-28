@@ -37,7 +37,7 @@ export default function FormList({ user }) {
         }
       })
       .catch((err) => console.log(err));
-  }, []);
+  },[]);
 
   let renderedListItem;
   if (list) {

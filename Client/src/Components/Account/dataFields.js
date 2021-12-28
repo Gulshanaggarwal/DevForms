@@ -3,7 +3,7 @@ import {Redirect } from "react-router-dom";
 import ChangePassword from "./changePassword";
 
 export default function DataField() {
-  const [value, setValue] = useState(() => {
+  const [value,] = useState(() => {
     const token = localStorage.getItem("__auth__token");
     if (token) {
       var base64Url = token.split(".")[1];

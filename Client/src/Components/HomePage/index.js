@@ -18,7 +18,7 @@ function Homepage() {
 
         <div className="bg-gray-900 text-gray-50 w-5/6 py-4 px-4 mx-auto sm:py-8 sm:px-8 rounded-md sm:w-1/2">
           <div className="w-5/6 mx-auto flex flex-col">
-            <span>&lt;form action="https://devforms.netlify.app/" method="post"&gt;</span>
+            <span>&lt;form action="https://devformms.herokuapp.com/myapikey" method="post"&gt;</span>
             <span className="px-4">&lt;label for="email"&gt;Your Email&lt;/label&gt;</span>
             <span className="px-4">&lt;input name="Email" id="email" type="email" /&gt;</span>
             <span className="px-4">&lt;button type="submit"&gt;Submit&lt;/button&gt;</span>

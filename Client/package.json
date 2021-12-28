@@ -44,8 +44,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.8",
-    "chokidar-cli": "^3.0.0",
-    "concurrently": "^6.3.0",
     "postcss": "^7.0.39",
     "postcss-cli": "^8.3.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"

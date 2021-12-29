@@ -29,6 +29,8 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.use(express.urlencoded({ extended: false }));
+app.set("views","./views");
+app.use(express.static("static"));
 app.set("view engine", "pug");
 
 app.use("/login", login);

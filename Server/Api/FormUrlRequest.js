@@ -45,7 +45,7 @@ router.post("/:userId/:formId", async (req, res) => {
         const { targetEmail } = project_found;
 
         
-        const sendDataTemplate= pug.compileFile(path.join(__dirname,"/templates/FormData.pug"));
+        const sendDataTemplate= pug.compileFile(path.join(__dirname,"../templates/FormData.pug"));
         // set mail
         const mailOptions = {
           from: process.env.Author_Email,

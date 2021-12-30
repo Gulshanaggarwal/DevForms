@@ -18,6 +18,7 @@ router.post("/:userId/:formId", async (req, res) => {
 
   try {
     const user = await projectModel.findOne({ _id: userId }).exec();
+    console.log("user",user);
 
     if (user) {
       const { projects } = user;
@@ -90,6 +91,7 @@ router.post("/:userId/:formId", async (req, res) => {
 
 
   } catch (error) {
+    console.log("err",error);
     res.send("Server error try again");
   }
 

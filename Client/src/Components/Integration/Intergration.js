@@ -39,10 +39,10 @@ export default function Integration() {
           </button>
         </div>
       </div>
-      <div className="px-16 py-8 w-3/4">
-        <h3 className="text-xl font-medium py-8">Intergration Guide</h3>
+      <div className="px-16 py-8 w-5/6">
+        <h3 className="text-xl font-medium py-8">Integration Guide</h3>
         <div className="bg-gray-900 text-gray-50  py-8 text-sm  rounded-md">
-          <div className="w-5/6 mx-auto flex flex-col">
+          <div className="w-full mx-auto flex flex-col px-4">
             <span>&lt;form action=<span className="text-green-300 font-medium">{`"${FormURL}"`}</span> method="post"&gt;</span>
             <span className="px-4">&lt;label for="name"&gt;Your Name&lt;/label&gt;</span>
             <span className="px-4">&lt;input name="name" id="name" type="text" /&gt;</span>
